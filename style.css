@@ -1,0 +1,94 @@
+body{font-family:'Noto Sans', sans-serif;}
+
+
+/* 全体に適用させるもの */
+a:visited{
+    color: #000;
+}
+
+/* ヘッダーの画像　*/
+.topImg{
+    display: block;
+    margin:0 auto;
+    height:300px;
+}
+
+/* 左右のマージン　*/
+main {
+    padding-right:5%;
+    padding-left:5%;
+}
+
+/* ナビゲーション設定 */
+.menu{
+    width: 100%;
+    display: flex;
+}
+
+.menu ul{
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu ul li {
+    float: left;
+    padding: 10px
+}
+
+.menu ul li a{
+    text-decoration: none;
+}
+
+/* 作品画像関係の設定　*/
+
+/* 作品個別の画像　*/
+.workImg1{
+    background: url(img/test1.jpg) no-repeat center;
+}
+
+.workImg2{
+    background: url(img/test2.jpg) no-repeat center;
+}
+
+.workImg3{
+    background: url(img/test3.jpg) no-repeat center;
+}
+
+/* 作品個別のフォーマット　*/
+.workImg{
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    border: none;
+}
+
+.work{
+    float: left;
+    width: 33%
+}
+
+.work1{
+    padding-right: 2%;
+    box-sizing: border-box;
+}
+
+.work2{
+    padding-right: 1%;
+    padding-left: 1%;
+    box-sizing: border-box;
+}
+
+.work3{
+    padding-left: 2%;
+    box-sizing: border-box;
+}
+
+/* 作品のアブスト　*/
+.abstract{
+    margin-top: 0px;
+}
+
+.abstract a{
+    text-decoration: none;
+}
